@@ -12,6 +12,9 @@
 		0F6002581BD6A9030037C580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6002561BD6A9030037C580 /* Main.storyboard */; };
 		0F60025A1BD6A9030037C580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6002591BD6A9030037C580 /* Assets.xcassets */; };
 		0F60025D1BD6A9030037C580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F60025B1BD6A9030037C580 /* LaunchScreen.storyboard */; };
+		0F6002671BD730130037C580 /* TTGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6002661BD730130037C580 /* TTGenreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0F6002691BD7349D0037C580 /* TTGenreHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6002681BD7349D0037C580 /* TTGenreHistoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0F60026B1BD739990037C580 /* TTGenreContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F60026A1BD739990037C580 /* TTGenreContainerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0F6002591BD6A9030037C580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F60025C1BD6A9030037C580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F60025E1BD6A9030037C580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6002661BD730130037C580 /* TTGenreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTGenreViewController.swift; sourceTree = "<group>"; };
+		0F6002681BD7349D0037C580 /* TTGenreHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTGenreHistoryViewController.swift; sourceTree = "<group>"; };
+		0F60026A1BD739990037C580 /* TTGenreContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTGenreContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				0F6002591BD6A9030037C580 /* Assets.xcassets */,
 				0F60025B1BD6A9030037C580 /* LaunchScreen.storyboard */,
 				0F60025E1BD6A9030037C580 /* Info.plist */,
+				0F6002661BD730130037C580 /* TTGenreViewController.swift */,
+				0F6002681BD7349D0037C580 /* TTGenreHistoryViewController.swift */,
+				0F60026A1BD739990037C580 /* TTGenreContainerViewController.swift */,
 			);
 			path = "Album Experiment Two";
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F6002551BD6A9030037C580 /* ViewController.swift in Sources */,
+				0F60026B1BD739990037C580 /* TTGenreContainerViewController.swift in Sources */,
+				0F6002671BD730130037C580 /* TTGenreViewController.swift in Sources */,
 				0F6002531BD6A9030037C580 /* AppDelegate.swift in Sources */,
+				0F6002691BD7349D0037C580 /* TTGenreHistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
